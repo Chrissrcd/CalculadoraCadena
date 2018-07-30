@@ -11,8 +11,8 @@ package CalculadoraCadena;
  */
 public class CalculadoraC {
     
-    public static int add(String numbers) {
-        int result = 0;
+    public static Integer add(String numbers) {
+        Integer result = 0;
         numbers+=',';
         if (numbers.length() > 0) {
             String n = "";
