@@ -13,7 +13,7 @@ public class CalculadoraC {
     
     public static int add(String numbers) {
         int result = 0;
-        numbers+=',';
+        numbers+=",";
         if (numbers.length() > 0) {
             String n = "";
             for (int i = 0; i < numbers.length(); i++) {
