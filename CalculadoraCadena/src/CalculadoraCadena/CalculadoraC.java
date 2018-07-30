@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package CalculadoraCadena;
 
 /**
  *
  * @author chris
  */
-public class CalculadoraCadena {
+public class CalculadoraC {
     
-    public static void main(String[] args) {
-        
-        System.out.println(add("1,40,25,60"));
-        
-    }
-
     public static int add(String numbers) {
         int result = 0;
         numbers+=',';
@@ -32,5 +27,4 @@ public class CalculadoraCadena {
         }
         return result;
     }
-
 }
