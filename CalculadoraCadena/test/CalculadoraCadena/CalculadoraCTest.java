@@ -44,10 +44,11 @@ public class CalculadoraCTest {
     public void testAdd() {
         System.out.println("add");
         String numbers = "";
-        int expResult = 0;
-       // int result = CalculadoraC.add(numbers);
-        assertEquals(3, CalculadoraC.add("1,2"));
+        Integer expResult = 0;
+        Integer result = CalculadoraC.add(numbers);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+    
 }
