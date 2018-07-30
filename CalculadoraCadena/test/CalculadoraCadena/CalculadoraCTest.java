@@ -46,7 +46,7 @@ public class CalculadoraCTest {
         String numbers = "";
         int expResult = 0;
        // int result = CalculadoraC.add(numbers);
-        assertEquals(0, CalculadoraC.add(numbers));
+        assertEquals(3, CalculadoraC.add("1,2"));
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }

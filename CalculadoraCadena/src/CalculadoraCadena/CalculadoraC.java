@@ -11,9 +11,15 @@ package CalculadoraCadena;
  */
 public class CalculadoraC {
     
+<<<<<<< HEAD
     public static Integer add(String numbers) {
         Integer result = 0;
         numbers+=',';
+=======
+    public static int add(String numbers) {
+        int result = 0;
+        numbers+=",";
+>>>>>>> 2fc208e1cc314855d0a6ca62b97f911b0cf9cb3a
         if (numbers.length() > 0) {
             String n = "";
             for (int i = 0; i < numbers.length(); i++) {
