@@ -43,7 +43,7 @@ public class CalculadoraCTest {
     @Test
     public void testAdd() {
         System.out.println("add");
-        String numbers = "";
+        String numbers = "0";
         Integer expResult = 0;
         Integer result = CalculadoraC.add(numbers);
         assertEquals(expResult, result);
