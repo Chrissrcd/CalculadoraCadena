@@ -17,7 +17,7 @@ public class CalculadoraC {
             numbers+=",";
             String n = "";
             for (int i = 0; i < numbers.length(); i++) {
-                if (numbers.charAt(i) == ',') {
+                if (numbers.charAt(i) == ',' || numbers.charAt(i) == '\n') {
                     result += Integer.parseInt(n);
                     n = "";
                 } else {
