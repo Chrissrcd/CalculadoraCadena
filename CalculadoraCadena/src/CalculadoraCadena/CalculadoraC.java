@@ -13,8 +13,8 @@ public class CalculadoraC {
 
     public static Integer add(String numbers) {
         Integer result = 0;
-        numbers+=",";
         if (numbers.length() > 0) {
+            numbers+=",";
             String n = "";
             for (int i = 0; i < numbers.length(); i++) {
                 if (numbers.charAt(i) == ',') {
